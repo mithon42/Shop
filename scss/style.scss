@@ -1,0 +1,100 @@
+.navbar{
+    border-bottom: 3px solid #e8f532c4;
+    a{
+        img{
+            width: 170px;
+        }
+    }
+}
+// #bannar-section
+#bannar-section{
+    margin-top: 70px;
+    padding: 160px 0;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.5)), url(../img/hero_2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h1{
+        font-size: 70px;
+    }
+    p{
+        max-width: 800px;
+        margin: auto;
+    }
+}
+// products - Section
+#products-header{
+    background: #eceaea;
+    p{
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #products-item{
+        box-shadow: 0 2px 15px 4px #d1cfcf;
+    }
+}
+// Services - Section
+#services{
+    #services-item{
+        box-shadow: 2px 2px 8px #494646;
+
+        i{
+            font-size: 35px;
+            cursor: pointer;
+            color: #cfcfcfc9;
+        }
+    }
+    #services-item:hover i{
+        color: #ff0000c5;
+    }
+}
+// testimonial
+#testimonial{
+    background: #e4e4e4;
+
+    p{
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+
+// Midium - Screen
+@media (max-width:768px) {
+    #bannar-section{
+        h1{
+            font-size: 50px;
+        }
+        p{
+            width: 85%;
+            font-size: 18px;
+        }
+    }
+}
+// Small - Screen
+@media (max-width:575px) {
+    .navbar{
+        a{
+            img{
+                width: 140px;
+            }
+        }
+    }
+    #bannar-section{
+        h1{
+            font-size: 35px;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    // Products
+    #products-header{
+        p{
+            font-size: 18px;
+        }
+    }
+    
+}
